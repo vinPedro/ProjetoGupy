@@ -13,4 +13,4 @@ b) 2, 4, 8, 16, 32, 64, 128 - regra: o próximo elemento é a metade do anterior
 c) 0, 1, 4, 9, 16, 25, 36, 49 - regra: após a posição += 3, x = (posição atual - 2) * 4 + (elemento na posição atual - 2)
 d) 4, 16, 36, 64, 100 - regra: x = posição atual * 2 ^ 2.
 e) 1, 1, 2, 3, 5, 8, 13 - regra: seqüência de Fibonacci
-f) 2,10, 12, 16, 17, 18, 19, - regra: Não consegui achar um lógica comum para a seqüencia.
+f) 2,10, 12, 16, 17, 18, 19, - regra: Não consegui achar uma lógica comum para a seqüencia. Mas, após pesuisar um pouco, descobri que há uma possível característica que esses números compartilham: todos têm o dígito '1' em sua representação binária. Exemplo: 2 = 10; 10 = 1010; 12 = 1100; 16 = 10000.
